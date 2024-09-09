@@ -5,4 +5,4 @@
 #COPY ./app /code/app
 #CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
 FROM nginx
-COPY index.html /usr/share/nginx/html/
+COPY ./index.html /usr/share/nginx/html/
