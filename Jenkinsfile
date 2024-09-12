@@ -36,8 +36,7 @@ stages {
  //                    '''
  //                    }
  //            }
-
-        }
+ //        }
         stage('Docker Push'){ //we pass the built image to our docker hub account
             environment
             {
